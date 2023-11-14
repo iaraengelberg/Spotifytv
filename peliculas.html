@@ -25,10 +25,10 @@
 
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html"><img src="img/home.png" alt="" style="width: 4" height="25"> Home</a>
+            <a class="nav-link" href="index.html"><img src="img/home.png" alt="" style="width: 4" height="25"> Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="peliculas.html"><img src="img/spoty.png" alt="" style="width: 4" height="25"> Peliculas</a>
+            <a class="nav-link active" aria-current="page" href="peliculas.html"><img src="img/spoty.png" alt="" style="width: 4" height="25"> Peliculas</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="musica.html"><img src="img/spoty music.png" alt="" style="width: 3" height="25"> Musica</a>
@@ -57,38 +57,31 @@
   </div>
   </nav>
 
-  
 
-
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="img/carru1.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="img/carru2.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="img/carru3.png" class="d-block w-100" alt="...">
-      </div>
-    </div>
-  </div>
-
-  
-  
-
-</div class="Playlisthome contenedor">
-<background-image src="img/playlist.png" class="img-fluid" alt="...">
-<img src="img/playlist.png" class="img-fluid" alt="...">
-</div>
-  
+  <ul class="nav justify-content-center" style=".text-success">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#generos">Generos</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#peliculas">Peliculas</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page"href="#playlist">Playlist</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#artistas">Artistas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#moods">Moods</a>
+      </li>
+  </ul>
 
 
 
 
-<div class="peliculas-recomendadas contenedor" style="margin-top: 30px;">
+<div class="peliculas-recomendadas contenedor" id="generos">
   <div class="contenedor-titulo-controles">
-    <h3>Todos tus generos</h3>
+    <h3>Generos</h3>
     <div class="indicadores"></div>
   </div>
 
@@ -132,24 +125,16 @@
     </div>
 
     <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
-
   </div>
-  <a class="icon-link icon-link-hover link-success link-underline-success link-underline-opacity-25" href="peliculas.html">
-    Ver generos
+  <a class="icon-link icon-link-hover link-success link-underline-success link-underline-opacity-25" href="#">
+    Ir a generos
     <svg class="bi" aria-hidden="true"><use xlink:href="#arrow-right"></use></svg>
   </a> 
 </div>
 
-
-
-
-
-
-
-
-<div class="peliculas-recomendadas contenedor">
+<div class="peliculas-recomendadas contenedor" id="peliculas">
   <div class="contenedor-titulo-controles">
-    <h3>Peliculas pasa todos los gustos</h3>
+    <h3>Peliculas</h3>
     <div class="indicadores"></div>
   </div>
 
@@ -159,31 +144,13 @@
     <div class="contenedor-carousel">
       <div class="carousel">
         <div class="pelicula">
-          <a href="#"><img src="img/PELICULA (1).png"></a>
-        </div>
-        <div class="pelicula">
-          <a href="#"><img src="img/PELICULA (2).png" alt=""></a>
-        </div>
-        <div class="pelicula">
-          <a href="#"><img src="img/PELICULA (10).png"></a>
-        </div>
-        <div class="pelicula">
-          <a href="#"><img src="img/PELICULA (11).png"></a>
-        </div>
-        <div class="pelicula">
-          <a href="#"><img src="img/PELICULA (12).png" alt=""></a>
-        </div>
-        <div class="pelicula">
-          <a href="#"><img src="img/PELICULA (3).png" alt=""></a>
+          <a href="#"><img src="img/PELICULA (3).png"></a>
         </div>
         <div class="pelicula">
           <a href="#"><img src="img/PELICULA (4).png" alt=""></a>
         </div>
         <div class="pelicula">
-          <a href="#"><img src="img/PELICULA (5).png"></a>
-        </div>
-        <div class="pelicula">
-          <a href="#"><img src="img/PELICULA (6).png" alt=""></a>
+          <a href="#"><img src="img/PELICULA (6).png"></a>
         </div>
         <div class="pelicula">
           <a href="#"><img src="img/PELICULA (7).png"></a>
@@ -192,7 +159,19 @@
           <a href="#"><img src="img/PELICULA (8).png" alt=""></a>
         </div>
         <div class="pelicula">
-          <a href="#"><img src="img/PELICULA (9).png"></a>
+          <a href="#"><img src="img/PELICULA (8).png" alt=""></a>
+        </div>
+        <div class="pelicula">
+          <a href="#"><img src="img/PELICULA (1).png" alt=""></a>
+        </div>
+        <div class="pelicula">
+          <a href="#"><img src="img/PELICULA (11).png"></a>
+        </div>
+        <div class="pelicula">
+          <a href="#"><img src="img/PELICULA (2).png" alt=""></a>
+        </div>
+        <div class="pelicula">
+          <a href="#"><img src="img/PELICULA (5).png"></a>
         </div>
        
       </div>
@@ -200,19 +179,15 @@
 
     <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
   </div>
-  <a class="icon-link icon-link-hover link-success link-underline-success link-underline-opacity-25" href="peliculas.html">
-    Ver Peliculas
+  <a class="icon-link icon-link-hover link-success link-underline-success link-underline-opacity-25" href="#">
+    Ir a peliculas
     <svg class="bi" aria-hidden="true"><use xlink:href="#arrow-right"></use></svg>
   </a> 
 </div>
 
-
-
-
-
-<div class="peliculas-recomendadas contenedor">
+<div class="peliculas-recomendadas contenedor" id="playlist">
   <div class="contenedor-titulo-controles">
-    <h3>Musica</h3>
+    <h3>Playlist</h3>
     <div class="indicadores"></div>
   </div>
 
@@ -222,35 +197,157 @@
     <div class="contenedor-carousel">
       <div class="carousel">
         <div class="pelicula">
-          <a href="#"><img src="img/musica (9).png"></a>
+          <a href="#"><img src="img/Playlist (1).png"></a>
         </div>
         <div class="pelicula">
-          <a href="#"><img src="img/musica (10).png" alt=""></a>
+          <a href="#"><img src="img/Playlist (2).png" alt=""></a>
         </div>
         <div class="pelicula">
-          <a href="#"><img src="img/musica (11).png"></a>
+          <a href="#"><img src="img/Playlist (3).png"></a>
         </div>
         <div class="pelicula">
-          <a href="#"><img src="img/musica (12).png"></a>
+          <a href="#"><img src="img/Playlist (4).png"></a>
         </div>
         <div class="pelicula">
-          <a href="#"><img src="img/musica (13).png" alt=""></a>
+          <a href="#"><img src="img/Playlist (5).png"></a>
         </div>
         <div class="pelicula">
-          <a href="#"><img src="img/musica (13).png" alt=""></a>
+          <a href="#"><img src="img/Playlist (2).png" alt=""></a>
         </div>
+        <div class="pelicula">
+          <a href="#"><img src="img/Playlist (3).png"></a>
+        </div>
+        <div class="pelicula">
+          <a href="#"><img src="img/Playlist (4).png"></a>
+        </div>
+        
+        
+       
       </div>
     </div>
 
     <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
   </div>
-  <a class="icon-link icon-link-hover link-success link-underline-success link-underline-opacity-25" href="musica.html">
-    Ver Musica
+  <a class="icon-link icon-link-hover link-success link-underline-success link-underline-opacity-25" href="#">
+    Ir a mis Playlists
     <svg class="bi" aria-hidden="true"><use xlink:href="#arrow-right"></use></svg>
   </a> 
 </div>
 
+<div class="peliculas-recomendadas contenedor" id="artistas">
+  <div class="contenedor-titulo-controles">
+    <h3>Artistas</h3>
+    <div class="indicadores"></div>
+  </div>
 
+  <div class="contenedor-principal">
+    <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+    <div class="contenedor-carousel">
+      <div class="carousel">
+        <div class="pelicula">
+          <a href="#"><img src="img/artistas (1).png"></a>
+        </div>
+        <div class="pelicula">
+          <a href="#"><img src="img/artistas (2).png" alt=""></a>
+        </div>
+        <div class="pelicula">
+          <a href="#"><img src="img/artistas (3).png"></a>
+        </div>
+        <div class="pelicula">
+          <a href="#"><img src="img/artistas (4).png"></a>
+        </div>
+        <div class="pelicula">
+          <a href="#"><img src="img/artistas (5).png" alt=""></a>
+        </div>
+        <div class="pelicula">
+          <a href="#"><img src="img/GENERO (6).png" alt=""></a>
+        </div>
+        <div class="pelicula">
+          <a href="#"><img src="img/GENERO (7).png" alt=""></a>
+        </div>
+        <div class="pelicula">
+          <a href="#"><img src="img/GENERO (8).png"></a>
+        </div>
+        <div class="pelicula">
+          <a href="#"><img src="img/GENERO (9).png" alt=""></a>
+        </div>
+        <div class="pelicula">
+          <a href="#"><img src="img/GENERO.png"></a>
+        </div>
+       
+      </div>
+    </div>
+
+    <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+  </div>
+  <a class="icon-link icon-link-hover link-success link-underline-success link-underline-opacity-25" href="#">
+    Ir a Artistas
+    <svg class="bi" aria-hidden="true"><use xlink:href="#arrow-right"></use></svg>
+  </a> 
+</div>
+
+<div class="peliculas-recomendadas contenedor" id="moods">
+  <div class="contenedor-titulo-controles">
+    <h3>En que mood estas?</h3>
+    <div class="indicadores"></div>
+  </div>
+
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Generos</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Cansad@</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Acompañado@</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Maraton</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Aprender</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Asustarme</a>
+      </li>
+   </ul>
+
+  <div class="contenedor-principal">
+    <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+    <div class="contenedor-carousel">
+      <div class="carousel">
+        <div class="pelicula">
+          <a href="#"><img src="img/moods (1).png"></a>
+        </div>
+        <div class="pelicula">
+          <a href="#"><img src="img/moods (2).png" alt=""></a>
+        </div>
+        <div class="pelicula">
+          <a href="#"><img src="img/moods (3).png"></a>
+        </div>
+        <div class="pelicula">
+          <a href="#"><img src="img/moods (4).png"></a>
+        </div>
+        <div class="pelicula">
+          <a href="#"><img src="img/moods (5).png" alt=""></a>
+        </div>
+        <div class="pelicula">
+          <a href="#"><img src="img/moods (5).png" alt=""></a>
+        </div>
+       
+      </div>
+    </div>
+
+    <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+  </div>
+  
+</div>
+
+
+ 
 
 
 
@@ -297,4 +394,3 @@
     </body>
 
 </html>
-
